@@ -1,6 +1,9 @@
-*.class
+.settings/
+target/
+bin/
+doc/doxygen/
+doc/javadoc/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+.classpath
+.project
+doc/todo.txt
