@@ -50,6 +50,5 @@ public class ColorMapTool {
                 new MainFrame().setVisible(true);
             }
         });
-        //
     }
 }
