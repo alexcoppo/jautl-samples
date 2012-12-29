@@ -219,7 +219,7 @@ public class MainFrame extends javax.swing.JFrame {
         pack();
     }
 
-    private void buttonGoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonGoActionPerformed
+    private void buttonGoActionPerformed(java.awt.event.ActionEvent evt) {                                         
         this.setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
 
         String digestEngineName = (String)this.comboEngines.getSelectedItem();
@@ -231,7 +231,7 @@ public class MainFrame extends javax.swing.JFrame {
         if (digestEngineName.equals("MD5")) de = new MD5();
         if (digestEngineName.equals("Murmur2A")) de = new Murmur2A();
         if (digestEngineName.equals("Murmur3_32")) de = new Murmur3_32();
-        if (digestEngineName.equals("SHA1")) de = new SHA1();
+        if (digestEngineName.equals("SHA-1")) de = new SHA1();
         if (digestEngineName.equals("RIPEMD128")) de = new RIPEMD128();
         if (digestEngineName.equals("RIPEMD160")) de = new RIPEMD160();
         if (digestEngineName.equals("SHA2-256")) de = new SHA2_256();
