@@ -5,12 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.sf</groupId>
     <artifactId>jautl_samples</artifactId>
-    <version>0.34.1-SNAPSHOT</version>
+    <version>0.35.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>jautl_samples</name>
     <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <junit.version>3.8.1</junit.version>
     </properties>
     <build>
     <plugins>
@@ -27,15 +26,9 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>net.sf</groupId>
             <artifactId>jautl</artifactId>
-            <version>0.34.1-SNAPSHOT</version>
+            <version>0.35.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
